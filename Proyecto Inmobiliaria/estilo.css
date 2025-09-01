@@ -1,0 +1,95 @@
+body {
+      margin: 0;
+      font-family: sans-serif;
+  }
+nav {
+    background-color: #d4e3e9;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+nav a {
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    align-items: center;
+  }
+nav a:hover {
+    background-color: #575757;
+  }
+.header__logo {
+    max-width: 100%;
+    width: 60px;
+    margin: 20px 20px;
+  }
+.hero-section {
+  background-size: cover;
+/*  background-image: url('imagenes/banner.jpg');*/
+  background-position: center;
+  color: rgb(7, 3, 3);
+  padding: 50px 0;
+  text-align: center;
+  }
+/*form{
+  background-color: #ccdfe7;
+  padding: 20px 0;
+  max-width: 980px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}*/
+
+.container form.row {
+    border: 1px dashed #ccc; /* Borde punteado como en la imagen */
+    padding: 20px; /* Espacio interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgb(220, 235, 243); /* Color de fondo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+    margin-bottom: 35px;
+}
+.btn-primary {
+    background-color: #9bb3cc; /* Color azul, puedes cambiarlo al verde de la imagen */
+    border-color: #83a5c9;
+}
+
+.btn-primary:hover {
+    background-color: #8fa8c4; /* Color más oscuro al pasar el mouse */
+    border-color: #8ab5e2;
+}
+.banner{
+    background-size: cover;
+    background-image: url('imagenes/banner.jpg');
+    background-position: center;
+  color: rgb(7, 3, 3);
+  padding-top: 85px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+.footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .contact-info strong {
+            color: #eee;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.5em;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .about-section, .contact-section {
+            padding: 50px 0;
+            background-color: #fff;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }

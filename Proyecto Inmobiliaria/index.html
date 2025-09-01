@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardoso Propiedades</title>
+    <link rel="stylesheet" href="estilo.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <nav>
+          <div class="header__logo-container">
+            <img class="header__logo-container" src="logoc.png">
+        </div>  
+    <a href="#inicio">Inicio</a>
+    <a href="#ventas">En ventas</a>
+    <a href="#alquiler">En alquiler</a>
+    <a href="#contactos">Contactos</a>
+    <a href="#somos">Quienes somos</a>
+  </nav>
+  <div class="hero-section">
+        <div class="container">
+            <h1 class="display-4">Cardoso Propiedades</h1>
+            <p class="lead">El lugar ideal para buscar inmobiliarias</p>
+        </div>
+  </div>
+<div class="container">
+    <form class="row g-3" action="Registro.php" method="post">
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Ingrese dirección, zona, id o localidad">
+        </div>
+        <div class="col-md-2">
+            <select class="form-select">
+                <option selected>Tipo</option>
+                <option value="1">Casa</option>
+                <option value="2">Apartamento</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <select class="form-select">
+                <option selected>Precio</option>
+                <option value="1">Menos de $100k</option>
+                <option value="2">Más de $100k</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <select class="form-select">
+                <option selected>Superficie</option>
+                <option value="1">50-100m²</option>
+                <option value="2">100+m²</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select class="form-select">
+                <option selected>Habitaciones</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3+</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select class="form-select">
+                <option selected>Baño</option>
+                <option value="1">1</option>
+                <option value="2">2+</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select class="form-select">
+                <option selected>Moneda</option>
+                <option value="1">USD</option>
+                <option value="2">ARS</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select class="form-select">
+                <option selected>Garage</option>
+                <option value="1">Sí</option>
+                <option value="2">No</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </div>
+    </form>
+</div>
+<div class="banner">
+</div>
+<footer class="footer">
+        <div class="contact-info text-center">
+                    <p><strong><i class="bi bi-geo-alt-fill"></i> Dirección:</strong> Alvear N°678 Oficina 20, San Salvador de Jujuy</p>
+                    <p><strong><i class="bi bi-envelope-fill"></i> Email:</strong> cardosoprop@gmail.com (Ejemplo, debería ser un email de la empresa)</p>
+                    <p><strong><i class="bi bi-whatsapp"></i> WhatsApp:</strong> <a href="https://wa.me/5493884040555" target="_blank">3884040555</a></p>
+                    <p><strong><i class="bi bi-phone-fill"></i> Teléfono:</strong> 3884831535</p>
+                    <p><strong><i class="bi bi-instagram"></i> Instagram:</strong> @cardosopropiedadesjujuy</p>
+                </div>
+        <div class="container">
+            <p>Cardoso Propiedades. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/CardosoPropiedades/" target="_blank"><i class="bi bi-facebook"></i></a> </div>
+        </div>
+    </footer>
+</body>
+</html>
