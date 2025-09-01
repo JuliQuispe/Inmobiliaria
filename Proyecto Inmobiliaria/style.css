@@ -1,0 +1,92 @@
+body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    nav {
+      background-color: #bad5e0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    nav a {
+      display: flex;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      align-items: center;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .header__logo {
+        max-width: 100%;
+        width: 60px;
+        margin: 10px 20px;
+    }
+/*-----------------------------------------------------*/
+    
+    .search-bar-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        max-width: 900px;
+        margin: -60px auto 40px auto; /* Para que la barra de búsqueda se superponga ligeramente */
+        position: relative;
+        z-index: 1;
+    }
+    .hero-section {
+        background-image: url('imagenes/banner.jpg');
+        background-size: cover;
+        background-position: center;
+        color: rgb(253, 253, 253);
+        padding: 80px 0;
+        text-align: center;
+    }
+
+
+        .btn-primary-custom {
+            background-color: #2db879; /* Un verde más oscuro, similar al logo */
+            border-color: #031d11;
+        }
+        .btn-primary-custom:hover {
+            background-color: #157347;
+            border-color: #1b3026;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .contact-info strong {
+            color: #eee;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.5em;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .about-section, .contact-section {
+            padding: 50px 0;
+            background-color: #fff;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .map-container {
+            height: 300px;
+            background-color: #e9e9e9; /* Placeholder para el mapa */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            border-radius: 8px;
+        }

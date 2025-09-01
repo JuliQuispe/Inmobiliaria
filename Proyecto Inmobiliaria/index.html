@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardoso Propiedades</title>
+</head>
+<body>
+     <h1>Registro de Propiedades</h1>
+    <h3>
+    <form action="Registro.php" method="post">
+        ID Propiedad <input type="text" name="idpr"><br>
+       Tipo
+        <select name="tipo">
+            <option value="casa">Casa</option>
+            <option value="departamento">Departamento</option>
+        </select>
+        <br>
+         Direccion <br><textarea name="direccion" rows="3" cols="30"></textarea><br>
+         Precio <input type="number" name="precio" step="any" ><br>
+         Moneda <input type="text" name="moneda"><br>
+        Habitaciones <input type="text" name="habitaciones"><br>
+         Baños <input type="number" name="baños" step="any"><br>
+         Garage <input type="number" name="garage" step="any"><br>
+        Superficie <input type="text" name="superficie"><br>
+        ID_Agente <input type="number" name="idag" id="idag" step="any"><br>
+
+        <input type="submit" value="Registrar" name="Enviar">
+    </form>
+</body>
+</html>
