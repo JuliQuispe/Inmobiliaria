@@ -1,0 +1,24 @@
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  color: rgb(7, 3, 3);
+  padding: 50px 0;
+  text-align: center;
+  }
+.container form.row {
+    border: 1px dashed #ccc; /* Borde punteado como en la imagen */
+    padding: 20px; /* Espacio interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgb(155, 175, 185); /* Color de fondo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+    margin-bottom: 35px;
+}
+.btn-primary {
+    background-color: #6c7783; /* Color azul, puedes cambiarlo al verde de la imagen */
+    border-color: #778ea7;
+}
+
+.btn-primary:hover {
+    background-color: #8fa8c4; /* Color más oscuro al pasar el mouse */
+    border-color: #8ab5e2;
+}
